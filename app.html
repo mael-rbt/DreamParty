@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+</head>
+<body id="app">
+    <section id="home">
+        <header>
+            <label class="burger" for="burger">
+                <input type="checkbox" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <!-- MENU -->
+    
+            <!---------->
+            <form>
+                <select>
+                    <option value="">Lille</option>
+                    <option value="">Roubaix</option>
+                    <option value="">Lomme</option>
+                    <option value="">Wasquehal</option>
+                </select>
+            </form>
+        </header>
+
+        <article>
+            <h3>Vos sources d'inspiration</h3>
+            <div class="slider">
+                <div class="box">
+                    <a href="#" style="background-image: url(./assets/media/categories/cocktail.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/local_bar.png">
+                            Cocktails
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="#" style="background-image: url(./assets/media/categories/burger.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/lunch_dining.png">
+                            Food
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="#" style="background-image: url(./assets/media/categories/cinema.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/theaters.png">
+                            Movie
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="#" style="background-image: url(./assets/media/categories/bowling.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/bowling.png">
+                            Bowling
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="#" style="background-image: url(./assets/media/categories/bar.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/sports_bar.png">
+                            Bar
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <h3>Événement</h3>
+            <div class="slider">
+                <div class="rectangle">
+                    <a href="./event.html" style="background-image: url(./assets/media/event/utopia.png);">
+                        <div class="filter">
+                            <h4>UTOPIA</h4>
+                            <p>Utopia se tiendra du 14 mai au 02 octobre 2024</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="rectangle">
+                    <a href="./event.html" style="background-image: url(./assets/media/event/2.png);">
+                        <div class="filter">
+                            <h4>UTOPIA</h4>
+                            <p>Utopia se tiendra du 14 mai au 02 octobre 2024</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <h3>Activités</h3>
+            <div class="slider">
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/bowling.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/bowling.png">
+                            Bowling
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/cinema.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/cine.png">
+                            Cinéma
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/categories/bar.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/sports_bar.png">
+                            Bar
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/karting.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/kart.png">
+                            Karting
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/arcade.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/arcade.png">
+                            Arcade
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/lasergame.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/lasergame.png">
+                            Laser Game
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="moreActivity">Voir toutes les activités</a>
+        </article>
+
+    </section>
+
+    <section id="search">
+        <form>
+            <input type="text" placeholder="Cinéma...">
+            <div class="box">
+                <select>
+                    <option>5 personnes</option>
+                </select>
+                <select>
+                    <option>5 - 10€</option>
+                </select>
+            </div>
+        </form>
+
+        <article>
+            <h3>Les plus recherchées</h3>
+            <div class="container">
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/bowling.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/bowling.png">
+                            Bowling
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/cinema.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/cine.png">
+                            Cinéma
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/categories/burger.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/lunch_dining.png">
+                            Food
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <h3>Autres activités</h3>
+            <div class="container">
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/karting.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/kart.png">
+                            Karting
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/arcade.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/arcade.png">
+                            Arcade
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/lasergame.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/lasergame.png">
+                            Laser Game
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/soins.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/soins.png">
+                            Soins
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/spa.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/spa.png">
+                            SPA
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/casino.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/dice.png">
+                            Casino
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/vr.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/vr.png">
+                            VR
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/musee.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/musee.png">
+                            Musée
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="./activity.html" style="background-image: url(./assets/media/activity/restaurant.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/resto.png">
+                            Restaurant
+                        </div>
+                    </a>
+                </div> 
+            </div>
+        </article>
+    </section>
+
+    <section id="account">
+        <article class="aprofil">
+            <img src="/assets/media/default.jpg">
+            <div class="info">
+                <p>Utilisateur</p>
+                <a href="#">Modifier le profil</a>
+            </div>
+        </article>
+        <article>
+            <h3>Vos sources d'inspiration</h3>
+            <div class="container">
+                <div class="box">
+                    <a href="#" style="background-image: url(./assets/media/categories/cocktail.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/local_bar.png">
+                            Cocktails
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="#" style="background-image: url(./assets/media/categories/burger.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/lunch_dining.png">
+                            Food
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="#" style="background-image: url(./assets/media/categories/cinema.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/cine.png">
+                            Movie
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="#" style="background-image: url(./assets/media/categories/bowling.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/bowling.png">
+                            Bowling
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="#" style="background-image: url(./assets/media/categories/bar.png);">
+                        <div class="filter">
+                            <img src="/assets/media/ico/sports_bar.png">
+                            Bar
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <article>
+            <h3>Vos badges</h3>
+
+            <div class="bcontainer">
+                <div>
+                    <a href="/badge.html">
+                        <img src="/assets/media/badges/5.png">
+                        <p>5/5</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="/badge.html">
+                        <img src="/assets/media/badges/1.png">
+                        <p>3/3</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="/badge.html">
+                        <img src="/assets/media/badges/2.png">
+                        <p>7/10</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="/badge.html">
+                        <img src="/assets/media/badges/3.png">
+                        <p>7/30 </p>
+                    </a>
+                </div>
+            </div>
+            <a href="./badges.html">Voir tout les badges</a>
+        </article>
+    </section>
+
+    <section id="settings">
+        <h1>Les paramètres d'application arrivent bientôt !</h1>
+    </section>
+
+
+    <footer>
+        <nav>
+            <ul>
+                <li id="b-home" class="active"><span class="iconify" data-icon="ri:home-2-line"></span></li>
+                <li id="b-search"><span class="iconify" data-icon="fluent:search-12-regular"></span></li>
+                <li id="b-account"><span class="iconify" data-icon="uil:user"></span></li>
+                <li id="b-settings"><span class="iconify" data-icon="fluent:settings-24-regular" style="font-size:30px;"></span></li>
+            </ul>
+        </nav>
+    </footer>
+    <div class="background"></div>
+    <script src="/assets/js/app.js"></script>
+</body>
+</html>

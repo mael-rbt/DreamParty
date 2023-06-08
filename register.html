@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <script src="/assets/js/anime.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<body>
+    <main id="login-page">
+        <section class="first-section">
+            <div class="top">
+                <p>Bienvenue !</p>
+                <p>Quel est votre prénom ?</p>
+            </div>
+            <form>
+                <input type="text" id="prenom" required>
+                <label>Saisissez votre prénom</label>
+                <button id="first">Suivant</button>
+            </form>
+            <div class="middle">
+                <div class="sep"></div>
+                <p>ou</p>
+                <div class="sep"></div>
+            </div>
+            <div class="bottom">
+                <div class="credentials">
+                    <a href="#" class="facebook">
+                        <span class="iconify" data-icon="ri:facebook-fill"></span>
+                        S'inscrire avec Facebook
+                    </a>
+                    <a href="#" class="apple">
+                        <span class="iconify" data-icon="ic:baseline-apple"></span>
+                        S'inscrire avec Apple
+                    </a>
+                    <a href="#" class="google">
+                        <span class="iconify" data-icon="logos:google-icon"></span>
+                        S'inscrire avec Google
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="second-section">
+            <div class="top">
+                <p>Enchanté <span id="firstname"></span> !</p>
+            </div>
+            <form>
+                <input type="text" id="email" required>
+                <label>Saisissez votre email</label>
+                <input type="password" id="password" required>
+                <label>Saisissez votre mot de passe</label>
+                <button id="second">Suivant</button>
+            </form>
+        </section>
+        <section class="third-section">
+            <div class="top">
+                <p>Choisissez un nom<br>d'utilisateur !</p>
+            </div>
+            <form>
+                <input type="text" id="username" required>
+                <label>Saisissez votre nom d'utilisateur</label>
+                <button id="third">Suivant</button>
+            </form>
+        </section>
+
+        <section class="fourth-section">
+            <div class="top">
+                <p>Ajoutez une photo<br>de profil</p>
+            </div>
+            <form>
+                <img src="/assets/media/chooseImg.png" width="110px">
+                <input type="file" id="picture">
+                <button id="fourth">Créer mon compte</button>
+            </form>
+        </section>
+
+        <section class="fith-section">
+            <div class="top">
+                <p class="bold">Choissisez vos tags</p>
+                <p class="sub-text">Sélectionnez vos préférences</p>
+            </div>
+            <div class="tag">
+                <div class="sep-tag">
+                    <p>Nourriture et boisson</p>
+                </div>
+                <div class="taglist">
+                    <label class="switch">
+                        Bar
+                        <input type="checkbox">
+                        <span class="slider">Bar</span>
+                    </label>
+                    <label class="switch">
+                        Restaurant
+                        <input type="checkbox">
+                        <span class="slider">Restaurant</span>
+                    </label>
+                    <label class="switch">
+                        A volonté
+                        <input type="checkbox">
+                        <span class="slider">A volonté</span>
+                    </label>
+                    <label class="switch">
+                        Bar à chien
+                        <input type="checkbox">
+                        <span class="slider">Bar à chien</span>
+                    </label>
+                    <label class="switch">
+                        Bar dansant
+                        <input type="checkbox">
+                        <span class="slider">Bar dansant</span>
+                    </label>
+                    <label class="switch">
+                        Bière
+                        <input type="checkbox">
+                        <span class="slider">Bière</span>
+                    </label>
+                    <label class="switch">
+                        Cocktail
+                        <input type="checkbox">
+                        <span class="slider">Cocktail</span>
+                    </label>
+                </div>
+
+                <div class="sep-tag">
+                    <p>Divertissement</p>
+                </div>
+                <div class="taglist">
+                    <label class="switch">
+                        Bowling
+                        <input type="checkbox">
+                        <span class="slider">Bowling</span>
+                    </label>
+                    <label class="switch">
+                        Football en salle
+                        <input type="checkbox">
+                        <span class="slider">Football en salle</span>
+                    </label>
+                    <label class="switch">
+                        Laser game
+                        <input type="checkbox">
+                        <span class="slider">Laser game</span>
+                    </label>
+                    <label class="switch">
+                        Casino
+                        <input type="checkbox">
+                        <span class="slider">Casino</span>
+                    </label>
+                    <label class="switch">
+                        Karting
+                        <input type="checkbox">
+                        <span class="slider">Karting</span>
+                    </label>
+                    <label class="switch">
+                        Cinéma
+                        <input type="checkbox">
+                        <span class="slider">Cinéma</span>
+                    </label>
+                    <label class="switch">
+                        SPA
+                        <input type="checkbox">
+                        <span class="slider">SPA</span>
+                    </label>
+                </div>
+            </div>
+            <form>
+                <button id="fith">Suivant</button>
+                <a href="#" class="skip">Passer cette étape</a>
+            </form>
+        </section>
+
+        <section class="fithbis-section">
+            <div class="top">
+                <p class="bold">Pour aujourd'hui vous êtes ?</p>
+                <p class="sub-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <form>
+                <p class="bold">Nombre de personne</p>
+                <select>
+                    <option value="/" selected disabled>Sélectionnez le nombre de personne</option>
+                    <option value="1">1 personne</option>
+                    <option value="2">2 personnes</option>
+                    <option value="3">3 personnes</option>
+                    <option value="4">4 personnes</option>
+                    <option value="5">5 personnes</option>
+                    <option value="6">6 personnes</option>
+                    <option value="7">7 personnes</option>
+                    <option value="8">8 personnes</option>
+                </select>
+
+                <p class="bold">Budget</p>
+                <select>
+                    <option value="/" selected disabled>Sélectionnez votre budget</option>
+                    <option value="0">Moins de 5€</option>
+                    <option value="1">entre 5€ et 10€</option>
+                    <option value="2">entre 10€ et 25€</option>
+                    <option value="3">entre 25€ et 50€</option>
+                    <option value="4">entre 50€ et 100€</option>
+                    <option value="5">entre 50€ et 250€</option>
+                    <option value="6">> 250€</option>
+                </select>
+
+                <button id="fithbis">Suivant</button>
+            </form>
+        </section>
+
+        <section class="six-section">
+            <div class="top">
+                <img src="/assets/media/default.jpg">
+                <p class="bold">Merci <span id="user-name"></span></p>
+                <p>Merci d'avoir rejoint Dream Party !</p>
+            </div>
+            <form>
+                <p>Trouvez dès maintenant</p>
+                <p>une activité à faire!</p>
+                <button id="six">Suivant</button>
+            </form>
+        </section>
+    </main>
+    <script src="/assets/js/login.js"></script>
+</body>
+</html>
